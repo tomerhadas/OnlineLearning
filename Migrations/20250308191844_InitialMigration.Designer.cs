@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace OnlineLearningPlatform.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(ApplicationContext))]
     [Migration("20250308191844_InitialMigration")]
     partial class InitialMigration
     {

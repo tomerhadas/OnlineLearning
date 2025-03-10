@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="4-Services\" />
     <Folder Include="6-Middleware\" />
-    <Folder Include="5-Controllers\" />
     <Folder Include="1-Assets\" />
   </ItemGroup>
 

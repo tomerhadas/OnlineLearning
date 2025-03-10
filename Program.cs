@@ -37,7 +37,7 @@ public class Program
         builder.Services.AddScoped<EnrollmentService>();
         builder.Services.AddScoped<ProgressService>();
 
-        builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        builder.Services.AddDbContext<ApplicationContext>(options =>
         {
             // Use the static property from AppConfig
             options.UseSqlServer(AppConfig.ConnectionString);

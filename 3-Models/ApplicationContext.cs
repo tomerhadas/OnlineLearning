@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OnlineLearningPlatform;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationContext : DbContext
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+    public ApplicationContext(DbContextOptions<ApplicationContext> options)
         : base(options)
     {
     }
